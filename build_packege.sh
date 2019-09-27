@@ -20,13 +20,13 @@ rm -f package/DEBIAN/control
 echo "Package: fmradio" >> package/DEBIAN/control
 echo "Version: ${v}" >> package/DEBIAN/control
 echo "Architecture: i386" >> package/DEBIAN/control
-echo "Maintainer: Sergey Avdeev <thesoultaker48@gmail.com>" >> package/DEBIAN/control
+echo "Maintainer: Sergey Avdeev <avdeevsv91@gmail.com>" >> package/DEBIAN/control
 s=`du -s package/usr/ | awk '{print $1}'`
 echo "Installed-Size: ${s}" >> package/DEBIAN/control
 echo "Depends: fmtools (>= 2.0.7)" >> package/DEBIAN/control
 echo "Section: sound" >> package/DEBIAN/control
 echo "Priority: optional" >> package/DEBIAN/control
-echo "Homepage: http://tst48.wordpress.com" >> package/DEBIAN/control
+echo "Homepage: https://github.com/avdeevsv91/fmradio-linux" >> package/DEBIAN/control
 echo "Description: FM-Radio Tuner" >> package/DEBIAN/control
 echo " Minimalistic graphical user interface (GUI) for fmtools." >> package/DEBIAN/control
 echo "OK!"
