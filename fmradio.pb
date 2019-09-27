@@ -1,13 +1,13 @@
-﻿; ======================================
-; == FM Radio                         ==
-; ==                                  ==
-; == Minimalistic GUI for fmtools     ==
-; == Author: Sergey Avdeev            ==
-; == E-Mail: thesoultaker48@gmail.com ==
-; == URL: http://tst48.wordpress.com  ==
-; ==                                  ==
-; == Think correctly. Debian.         ==
-; ======================================
+﻿; ======================================================
+; == FM Radio                                          ==
+; ==                                                   ==
+; == Minimalistic GUI for fmtools                      ==
+; == Author: Sergey Avdeev                             ==
+; == E-Mail: avdeevsv91@gmail.com                      ==
+; == URL: https://github.com/avdeevsv91/fmradio-linux  ==
+; ==                                                   ==
+; == Think correctly. Debian.                          ==
+; =======================================================
 
 
 ; For icons
