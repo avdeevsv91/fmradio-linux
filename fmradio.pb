@@ -361,7 +361,7 @@ Repeat
           TextGadget(400, 5, 15, 50, 25, "Device:") : StringGadget(401, 60, 10, 135, 25, getDevice())
           ButtonGadget(402, 10, 45, 85, 25, "Cancel") : ButtonGadget(403, 105, 45, 85, 25, "Save")
         Case 12: ; About FM Radio
-          MessageRequester("About ", "FM Radio v"+#Program_Major_Version+"."+#Program_Minor_Version+" (build "+#PB_Editor_BuildCount+")"+#LF$+#LF$+"Minimalistic GUI for fmtools"+#LF$+#LF$+"Author: Sergey Avdeev"+#LF$+"E-Mail: thesoultaker48@gmail.com"+#LF$+"URL: http://tst48.wordpress.com"+#LF$+#LF$+"Think correctly. Debian.")
+          MessageRequester("About ", "FM Radio v"+#Program_Major_Version+"."+#Program_Minor_Version+" (build "+#PB_Editor_BuildCount+")"+#LF$+#LF$+"Minimalistic GUI for fmtools"+#LF$+#LF$+"Author: Sergey Avdeev"+#LF$+"E-Mail: avdeevsv91@gmail.com"+#LF$+"URL: https://kasito.ru"+#LF$+#LF$+"Think correctly. Debian.")
         Case 13: ; Delete station
           If (GetGadgetState(3) > 0)
             If (MessageRequester("Question", "Are you sure you want to delete the station "+GetGadgetText(3)+"?", #PB_MessageRequester_YesNo) = #PB_MessageRequester_Yes)
