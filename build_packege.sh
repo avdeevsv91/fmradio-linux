@@ -26,7 +26,7 @@ echo "Installed-Size: ${s}" >> package/DEBIAN/control
 echo "Depends: fmtools (>= 2.0.7)" >> package/DEBIAN/control
 echo "Section: sound" >> package/DEBIAN/control
 echo "Priority: optional" >> package/DEBIAN/control
-echo "Homepage: https://github.com/avdeevsv91/fmradio-linux" >> package/DEBIAN/control
+echo "Homepage: https://github.com/kasitoru/fmradio-linux" >> package/DEBIAN/control
 echo "Description: FM-Radio Tuner" >> package/DEBIAN/control
 echo " Minimalistic graphical user interface (GUI) for fmtools." >> package/DEBIAN/control
 echo "OK!"

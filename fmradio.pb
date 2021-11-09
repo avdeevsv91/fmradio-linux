@@ -4,7 +4,7 @@
 ; == Minimalistic GUI for fmtools                      ==
 ; == Author: Sergey Avdeev                             ==
 ; == E-Mail: avdeevsv91@gmail.com                      ==
-; == URL: https://github.com/avdeevsv91/fmradio-linux  ==
+; == URL: https://github.com/kasitoru/fmradio-linux    ==
 ; ==                                                   ==
 ; == Think correctly. Debian.                          ==
 ; =======================================================
